@@ -3,6 +3,7 @@
 tags
 result
 *.txt
+!CMakeLists.txt
 
 # CMake build directories
 build/
