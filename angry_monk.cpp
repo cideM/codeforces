@@ -1,6 +1,5 @@
 #include <algorithm>
 #include <iostream>
-#include <print>
 #include <ranges>
 #include <vector>
 
