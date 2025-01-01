@@ -24,6 +24,7 @@
             moreutils
             jq
             cmake
+            clang-tools
             nodePackages.prettier
           ];
         };
