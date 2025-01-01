@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/fbs/private/codeforces/cpp",
+  "command": "/nix/store/wkadfwbhn9b4kdih88j7izzy20qw79bk-clang-wrapper-19.1.5/bin/clang++   -std=gnu++23 -arch arm64 -isysroot /nix/store/2y71rl5mnazwnpwpcq07xx97jl7sy5lh-apple-sdk-11.3/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mmacosx-version-min=11.3 -o CMakeFiles/angry_monk.dir/angry_monk.cpp.o -c /Users/fbs/private/codeforces/cpp/angry_monk.cpp",
+  "file": "/Users/fbs/private/codeforces/cpp/angry_monk.cpp",
+  "output": "CMakeFiles/angry_monk.dir/angry_monk.cpp.o"
+},
+{
+  "directory": "/Users/fbs/private/codeforces/cpp",
+  "command": "/nix/store/wkadfwbhn9b4kdih88j7izzy20qw79bk-clang-wrapper-19.1.5/bin/clang++   -std=gnu++23 -arch arm64 -isysroot /nix/store/2y71rl5mnazwnpwpcq07xx97jl7sy5lh-apple-sdk-11.3/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mmacosx-version-min=11.3 -o CMakeFiles/watermelon.dir/watermelon.cpp.o -c /Users/fbs/private/codeforces/cpp/watermelon.cpp",
+  "file": "/Users/fbs/private/codeforces/cpp/watermelon.cpp",
+  "output": "CMakeFiles/watermelon.dir/watermelon.cpp.o"
+}
+]

@@ -2,5 +2,15 @@
 .direnv
 tags
 result
-program
 *.txt
+
+# CMake build directories
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Compiled output
+*.o
+*.out
+program
