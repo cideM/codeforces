@@ -142,6 +142,32 @@ watermelon/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/watermelon.dir/build.make CMakeFiles/watermelon.dir/build
 .PHONY : watermelon/fast
 
+#=============================================================================
+# Target rules for targets named books
+
+# Build rule for target.
+books: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 books
+.PHONY : books
+
+# fast build rule for target.
+books/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/books.dir/build.make CMakeFiles/books.dir/build
+.PHONY : books/fast
+
+#=============================================================================
+# Target rules for targets named two_buttons
+
+# Build rule for target.
+two_buttons: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 two_buttons
+.PHONY : two_buttons
+
+# fast build rule for target.
+two_buttons/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/two_buttons.dir/build.make CMakeFiles/two_buttons.dir/build
+.PHONY : two_buttons/fast
+
 angry_monk.o: angry_monk.cpp.o
 .PHONY : angry_monk.o
 
@@ -165,6 +191,54 @@ angry_monk.s: angry_monk.cpp.s
 angry_monk.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/angry_monk.dir/build.make CMakeFiles/angry_monk.dir/angry_monk.cpp.s
 .PHONY : angry_monk.cpp.s
+
+books.o: books.cpp.o
+.PHONY : books.o
+
+# target to build an object file
+books.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/books.dir/build.make CMakeFiles/books.dir/books.cpp.o
+.PHONY : books.cpp.o
+
+books.i: books.cpp.i
+.PHONY : books.i
+
+# target to preprocess a source file
+books.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/books.dir/build.make CMakeFiles/books.dir/books.cpp.i
+.PHONY : books.cpp.i
+
+books.s: books.cpp.s
+.PHONY : books.s
+
+# target to generate assembly for a file
+books.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/books.dir/build.make CMakeFiles/books.dir/books.cpp.s
+.PHONY : books.cpp.s
+
+two_buttons.o: two_buttons.cpp.o
+.PHONY : two_buttons.o
+
+# target to build an object file
+two_buttons.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/two_buttons.dir/build.make CMakeFiles/two_buttons.dir/two_buttons.cpp.o
+.PHONY : two_buttons.cpp.o
+
+two_buttons.i: two_buttons.cpp.i
+.PHONY : two_buttons.i
+
+# target to preprocess a source file
+two_buttons.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/two_buttons.dir/build.make CMakeFiles/two_buttons.dir/two_buttons.cpp.i
+.PHONY : two_buttons.cpp.i
+
+two_buttons.s: two_buttons.cpp.s
+.PHONY : two_buttons.s
+
+# target to generate assembly for a file
+two_buttons.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/two_buttons.dir/build.make CMakeFiles/two_buttons.dir/two_buttons.cpp.s
+.PHONY : two_buttons.cpp.s
 
 watermelon.o: watermelon.cpp.o
 .PHONY : watermelon.o
@@ -199,10 +273,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... angry_monk"
+	@echo "... books"
+	@echo "... two_buttons"
 	@echo "... watermelon"
 	@echo "... angry_monk.o"
 	@echo "... angry_monk.i"
 	@echo "... angry_monk.s"
+	@echo "... books.o"
+	@echo "... books.i"
+	@echo "... books.s"
+	@echo "... two_buttons.o"
+	@echo "... two_buttons.i"
+	@echo "... two_buttons.s"
 	@echo "... watermelon.o"
 	@echo "... watermelon.i"
 	@echo "... watermelon.s"

@@ -14,3 +14,5 @@ endif()
 
 add_executable(angry_monk angry_monk.cpp)
 add_executable(watermelon watermelon.cpp)
+add_executable(books books.cpp)
+add_executable(two_buttons two_buttons.cpp)
