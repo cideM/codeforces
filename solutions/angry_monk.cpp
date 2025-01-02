@@ -1,3 +1,4 @@
+// SUCCESS
 #include <algorithm>
 #include <iostream>
 #include <ranges>

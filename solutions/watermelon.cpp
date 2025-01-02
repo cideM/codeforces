@@ -1,3 +1,4 @@
+// SUCCESS
 #include <iostream>
 
 int main() {
