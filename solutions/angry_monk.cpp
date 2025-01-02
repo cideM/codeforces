@@ -16,13 +16,11 @@ int main() {
       std::cin >> p;
     }
 
-    std::sort(pieces.begin(), pieces.end(), std::ranges::greater());
+    std::ranges::sort(pieces, std::ranges::greater{});
 
-    std::size_t steps{};
-
-    for (std::size_t p : pieces | std::views::drop(1)) {
-      steps = steps + p + (p - 1);
-    }
+    auto steps = std::ranges::fold_left(
+        std::views::drop(pieces, 1), 0U,
+        [](auto xs, std::size_t x) { return xs + x + (x - 1); });
 
     std::cout << steps << "\n";
   }

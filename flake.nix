@@ -17,14 +17,12 @@
           inherit system;
         };
       in {
-        devShell = pkgs.mkShell {
+        devShell = pkgs.mkShell.override {stdenv = pkgs.gcc14Stdenv;} {
           buildInputs = with pkgs; [
             alejandra
             coreutils
             moreutils
             jq
-            cmake
-            clang-tools
             nodePackages.prettier
           ];
         };
